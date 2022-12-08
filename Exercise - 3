@@ -1,5 +1,22 @@
 Exercise 3 - Repetition
+
 Write a C program to calculate the sum of the numbers from 1 to n. 
 Where n is a keyboard input.
 
 
+#include<stdio.h>
+int main()
+{
+	int n,a,sum=0;
+	
+	printf("Enter number(n) : ");
+	scanf("%d",&n);
+	
+	for(a=1;a<=n;a++)
+	{
+		sum = sum + a;
+	}
+	
+	printf("Sum of Numbers = %d",sum);
+	return 0;
+}
